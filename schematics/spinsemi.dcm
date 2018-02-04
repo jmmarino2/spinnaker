@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SpinSemi_FV-1
+D SOIC28
+K SpinSemi FV-1
+F http://www.spinsemi.com/Products/datasheets/spn1001/FV-1.pdf
+$ENDCMP
+#
+#End Doc Library
