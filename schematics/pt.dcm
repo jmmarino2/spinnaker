@@ -5,4 +5,9 @@ D DIP-8
 K PT2577
 $ENDCMP
 #
+$CMP PT2578
+D 6-Channel Electronic Volume Controller
+K PT2578
+$ENDCMP
+#
 #End Doc Library
