@@ -1,0 +1,408 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L spinnaker-rescue:AudioJack2_Ground_Switch J101
+U 1 1 5F00B708
+P 3200 2250
+F 0 "J101" H 3200 2600 50  0000 C CNN
+F 1 "AudioJack2_Ground_Switch" H 3200 2500 50  0000 C CNN
+F 2 "" H 3200 2250 50  0001 C CNN
+F 3 "" H 3200 2250 50  0001 C CNN
+	1    3200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L spinnaker-rescue:AudioJack2_Ground_Switch J103
+U 1 1 5F00B714
+P 6850 2250
+F 0 "J103" H 6850 2600 50  0000 C CNN
+F 1 "AudioJack2_Ground_Switch" H 6850 2500 50  0000 C CNN
+F 2 "" H 6850 2250 50  0001 C CNN
+F 3 "" H 6850 2250 50  0001 C CNN
+	1    6850 2250
+	-1   0    0    1   
+$EndComp
+Text GLabel 4600 1650 0    60   Input ~ 0
+LEFT_INPUT
+Text GLabel 5400 1650 2    60   Input ~ 0
+LEFT_OUTPUT
+Text GLabel 4600 3450 0    60   Input ~ 0
+RIGHT_INPUT
+Text GLabel 5400 3450 2    60   Input ~ 0
+RIGHT_OUTPUT
+Wire Wire Line
+	3400 2150 4000 2150
+Wire Wire Line
+	4000 2150 4000 2350
+Wire Wire Line
+	3400 2350 4000 2350
+Connection ~ 4000 2350
+Wire Wire Line
+	6650 2150 6000 2150
+Wire Wire Line
+	6000 2150 6000 2350
+Wire Wire Line
+	6650 2350 6000 2350
+Connection ~ 6000 2350
+Wire Wire Line
+	4500 2350 5500 2350
+Wire Wire Line
+	4200 2250 3750 2250
+Wire Wire Line
+	5800 2250 6650 2250
+Wire Wire Line
+	4500 2150 4700 2150
+Wire Wire Line
+	4700 2150 4700 1650
+Wire Wire Line
+	4700 1650 4600 1650
+Wire Wire Line
+	5400 1650 5300 1650
+Wire Wire Line
+	5300 1650 5300 2150
+Wire Wire Line
+	5300 2150 5500 2150
+Wire Wire Line
+	4700 3450 4600 3450
+Wire Wire Line
+	5300 3450 5400 3450
+Wire Wire Line
+	4000 2350 4000 2900
+Wire Wire Line
+	6000 2350 6000 2550
+$Comp
+L spinnaker-rescue:SWITCH-3PDT-PTH-STOMP-SparkFun-Switches S1
+U 1 1 5ED5B31A
+P 4400 2250
+AR Path="/5ED5B31A" Ref="S1"  Part="1" 
+AR Path="/5EFE207B/5ED5B31A" Ref="S101"  Part="1" 
+F 0 "S101" H 4350 2626 45  0000 C CNN
+F 1 "SWITCH-3PDT-PTH-STOMP" H 4350 2542 45  0000 C CNN
+F 2 "STOMP_SWITCH_3PDT" H 4400 2500 20  0001 C CNN
+F 3 "" H 4400 2250 50  0001 C CNN
+F 4 "SWCH-13197" H 4350 2447 60  0000 C CNN "Campo4"
+	1    4400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L spinnaker-rescue:SWITCH-3PDT-PTH-STOMP-SparkFun-Switches S1
+U 2 1 5ED5F695
+P 5600 2250
+AR Path="/5ED5F695" Ref="S1"  Part="2" 
+AR Path="/5EFE207B/5ED5F695" Ref="S101"  Part="2" 
+F 0 "S101" H 5550 2626 45  0000 C CNN
+F 1 "SWITCH-3PDT-PTH-STOMP" H 5550 2542 45  0000 C CNN
+F 2 "STOMP_SWITCH_3PDT" H 5600 2500 20  0001 C CNN
+F 3 "" H 5600 2250 50  0001 C CNN
+F 4 "SWCH-13197" H 5550 2447 60  0000 C CNN "Campo4"
+	2    5600 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L spinnaker-rescue:SWITCH-3PDT-PTH-STOMP-SparkFun-Switches S1
+U 3 1 5ED6174A
+P 5100 2900
+AR Path="/5ED6174A" Ref="S1"  Part="3" 
+AR Path="/5EFE207B/5ED6174A" Ref="S101"  Part="3" 
+F 0 "S101" H 5050 3276 45  0000 C CNN
+F 1 "SWITCH-3PDT-PTH-STOMP" H 5050 3192 45  0000 C CNN
+F 2 "STOMP_SWITCH_3PDT" H 5100 3150 20  0001 C CNN
+F 3 "" H 5100 2900 50  0001 C CNN
+F 4 "SWCH-13197" H 5050 3097 60  0000 C CNN "Campo4"
+	3    5100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L spinnaker-rescue:AudioJack2_Ground_Switch J102
+U 1 1 5EE23820
+P 3200 4050
+F 0 "J102" H 3200 4400 50  0000 C CNN
+F 1 "AudioJack2_Ground_Switch" H 3200 4300 50  0000 C CNN
+F 2 "" H 3200 4050 50  0001 C CNN
+F 3 "" H 3200 4050 50  0001 C CNN
+	1    3200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L spinnaker-rescue:AudioJack2_Ground_Switch J104
+U 1 1 5EE23826
+P 6850 4050
+F 0 "J104" H 6850 4400 50  0000 C CNN
+F 1 "AudioJack2_Ground_Switch" H 6850 4300 50  0000 C CNN
+F 2 "" H 6850 4050 50  0001 C CNN
+F 3 "" H 6850 4050 50  0001 C CNN
+	1    6850 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3400 3950 4000 3950
+Wire Wire Line
+	6650 3950 6000 3950
+Wire Wire Line
+	6000 3950 6000 4150
+Wire Wire Line
+	6650 4150 6000 4150
+Wire Wire Line
+	4500 4150 5500 4150
+Wire Wire Line
+	4200 4050 3400 4050
+Wire Wire Line
+	5800 4050 6650 4050
+Wire Wire Line
+	4500 3950 4700 3950
+Wire Wire Line
+	4700 3950 4700 3450
+Wire Wire Line
+	5300 3450 5300 3950
+Wire Wire Line
+	5300 3950 5500 3950
+$Comp
+L spinnaker-rescue:SWITCH-3PDT-PTH-STOMP-SparkFun-Switches S2
+U 1 1 5EE2384A
+P 4400 4050
+AR Path="/5EE2384A" Ref="S2"  Part="1" 
+AR Path="/5EFE207B/5EE2384A" Ref="S102"  Part="1" 
+F 0 "S102" H 4350 4426 45  0000 C CNN
+F 1 "SWITCH-3PDT-PTH-STOMP" H 4350 4342 45  0000 C CNN
+F 2 "STOMP_SWITCH_3PDT" H 4400 4300 20  0001 C CNN
+F 3 "" H 4400 4050 50  0001 C CNN
+F 4 "SWCH-13197" H 4350 4247 60  0000 C CNN "Campo4"
+	1    4400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L spinnaker-rescue:SWITCH-3PDT-PTH-STOMP-SparkFun-Switches S2
+U 2 1 5EE23851
+P 5600 4050
+AR Path="/5EE23851" Ref="S2"  Part="2" 
+AR Path="/5EFE207B/5EE23851" Ref="S102"  Part="2" 
+F 0 "S102" H 5550 4426 45  0000 C CNN
+F 1 "SWITCH-3PDT-PTH-STOMP" H 5550 4342 45  0000 C CNN
+F 2 "STOMP_SWITCH_3PDT" H 5600 4300 20  0001 C CNN
+F 3 "" H 5600 4050 50  0001 C CNN
+F 4 "SWCH-13197" H 5550 4247 60  0000 C CNN "Campo4"
+	2    5600 4050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4150 3750 4150
+Wire Wire Line
+	3750 4150 3750 2250
+Connection ~ 3750 2250
+Wire Wire Line
+	3750 2250 3400 2250
+$Comp
+L Device:LED D2
+U 1 1 5EE4346C
+P 4500 2900
+F 0 "D2" H 4493 3117 50  0000 C CNN
+F 1 "LED" H 4493 3026 50  0000 C CNN
+F 2 "LED_THT:LED_Rectangular_W3.0mm_H2.0mm" H 4500 2900 50  0001 C CNN
+F 3 "~" H 4500 2900 50  0001 C CNN
+	1    4500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EE4C698
+P 4200 2900
+AR Path="/5EE4C698" Ref="R?"  Part="1" 
+AR Path="/5EFE207B/5EE4C698" Ref="R37"  Part="1" 
+F 0 "R37" V 4280 2900 50  0000 C CNN
+F 1 "1K" V 4200 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4130 2900 50  0001 C CNN
+F 3 "" H 4200 2900 50  0000 C CNN
+	1    4200 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 2900 4000 2900
+Connection ~ 4000 2900
+Wire Wire Line
+	4000 2900 4000 3000
+Wire Wire Line
+	4650 2900 4900 2900
+$Comp
+L power:+9V #PWR?
+U 1 1 5EEA34D6
+P 5650 2750
+AR Path="/5EEA34D6" Ref="#PWR?"  Part="1" 
+AR Path="/5EFE207B/5EEA34D6" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 5650 2600 50  0001 C CNN
+F 1 "+9V" H 5650 2890 50  0000 C CNN
+F 2 "" H 5650 2750 50  0000 C CNN
+F 3 "" H 5650 2750 50  0000 C CNN
+	1    5650 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L spinnaker-rescue:SWITCH-3PDT-PTH-STOMP-SparkFun-Switches S2
+U 3 1 5EEBC6B2
+P 5100 4700
+AR Path="/5EEBC6B2" Ref="S2"  Part="3" 
+AR Path="/5EFE207B/5EEBC6B2" Ref="S102"  Part="3" 
+F 0 "S102" H 5050 5076 45  0000 C CNN
+F 1 "SWITCH-3PDT-PTH-STOMP" H 5050 4992 45  0000 C CNN
+F 2 "STOMP_SWITCH_3PDT" H 5100 4950 20  0001 C CNN
+F 3 "" H 5100 4700 50  0001 C CNN
+F 4 "SWCH-13197" H 5050 4897 60  0000 C CNN "Campo4"
+	3    5100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5EEBC6B8
+P 4500 4700
+F 0 "D3" H 4493 4917 50  0000 C CNN
+F 1 "LED" H 4493 4826 50  0000 C CNN
+F 2 "LED_THT:LED_Rectangular_W3.0mm_H2.0mm" H 4500 4700 50  0001 C CNN
+F 3 "~" H 4500 4700 50  0001 C CNN
+	1    4500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EEBC6BE
+P 4200 4700
+AR Path="/5EEBC6BE" Ref="R?"  Part="1" 
+AR Path="/5EFE207B/5EEBC6BE" Ref="R38"  Part="1" 
+F 0 "R38" V 4280 4700 50  0000 C CNN
+F 1 "1K" V 4200 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4130 4700 50  0001 C CNN
+F 3 "" H 4200 4700 50  0000 C CNN
+	1    4200 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 4700 4000 4700
+Wire Wire Line
+	4650 4700 4900 4700
+$Comp
+L power:+9V #PWR?
+U 1 1 5EEBC6CF
+P 5650 4550
+AR Path="/5EEBC6CF" Ref="#PWR?"  Part="1" 
+AR Path="/5EFE207B/5EEBC6CF" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 5650 4400 50  0001 C CNN
+F 1 "+9V" H 5650 4690 50  0000 C CNN
+F 2 "" H 5650 4550 50  0000 C CNN
+F 3 "" H 5650 4550 50  0000 C CNN
+	1    5650 4550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3950 4000 4700
+Connection ~ 4000 4700
+Wire Wire Line
+	4000 4700 4000 4800
+$Comp
+L power:Earth #PWR?
+U 1 1 5F0B5C32
+P 5650 3050
+AR Path="/5F0B5C32" Ref="#PWR?"  Part="1" 
+AR Path="/5EFE207B/5F0B5C32" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 5650 2800 50  0001 C CNN
+F 1 "Earth" H 5650 2900 50  0001 C CNN
+F 2 "" H 5650 3050 50  0000 C CNN
+F 3 "" H 5650 3050 50  0000 C CNN
+	1    5650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5F0BAC3C
+P 6000 2550
+AR Path="/5F0BAC3C" Ref="#PWR?"  Part="1" 
+AR Path="/5EFE207B/5F0BAC3C" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 6000 2300 50  0001 C CNN
+F 1 "Earth" H 6000 2400 50  0001 C CNN
+F 2 "" H 6000 2550 50  0000 C CNN
+F 3 "" H 6000 2550 50  0000 C CNN
+	1    6000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5F0BCC99
+P 4000 3000
+AR Path="/5F0BCC99" Ref="#PWR?"  Part="1" 
+AR Path="/5EFE207B/5F0BCC99" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 4000 2750 50  0001 C CNN
+F 1 "Earth" H 4000 2850 50  0001 C CNN
+F 2 "" H 4000 3000 50  0000 C CNN
+F 3 "" H 4000 3000 50  0000 C CNN
+	1    4000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5F0BEC77
+P 4000 4800
+AR Path="/5F0BEC77" Ref="#PWR?"  Part="1" 
+AR Path="/5EFE207B/5F0BEC77" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 4000 4550 50  0001 C CNN
+F 1 "Earth" H 4000 4650 50  0001 C CNN
+F 2 "" H 4000 4800 50  0000 C CNN
+F 3 "" H 4000 4800 50  0000 C CNN
+	1    4000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5F0BFB76
+P 5650 4850
+AR Path="/5F0BFB76" Ref="#PWR?"  Part="1" 
+AR Path="/5EFE207B/5F0BFB76" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 5650 4600 50  0001 C CNN
+F 1 "Earth" H 5650 4700 50  0001 C CNN
+F 2 "" H 5650 4850 50  0000 C CNN
+F 3 "" H 5650 4850 50  0000 C CNN
+	1    5650 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5F0C6151
+P 6000 4350
+AR Path="/5F0C6151" Ref="#PWR?"  Part="1" 
+AR Path="/5EFE207B/5F0C6151" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 6000 4100 50  0001 C CNN
+F 1 "Earth" H 6000 4200 50  0001 C CNN
+F 2 "" H 6000 4350 50  0000 C CNN
+F 3 "" H 6000 4350 50  0000 C CNN
+	1    6000 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4150 6000 4350
+Connection ~ 6000 4150
+Wire Wire Line
+	5200 2800 5650 2800
+Wire Wire Line
+	5650 2800 5650 2750
+Wire Wire Line
+	5200 3000 5650 3000
+Wire Wire Line
+	5650 3000 5650 3050
+Wire Wire Line
+	5200 4600 5650 4600
+Wire Wire Line
+	5650 4600 5650 4550
+Wire Wire Line
+	5200 4800 5650 4800
+Wire Wire Line
+	5650 4800 5650 4850
+$EndSCHEMATC

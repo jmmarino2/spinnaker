@@ -1,0 +1,556 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Memory_EEPROM:24LC32 U10
+U 1 1 5EEED7BE
+P 5900 3450
+F 0 "U10" H 5650 3700 50  0000 C CNN
+F 1 "24LC32" H 6100 3700 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5950 3200 50  0001 L CNN
+F 3 "" H 5900 3350 50  0000 C CNN
+	1    5900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_EEPROM:24LC32 U11
+U 1 1 5EEED7C4
+P 7200 3450
+F 0 "U11" H 6950 3700 50  0000 C CNN
+F 1 "24LC32" H 7400 3700 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7250 3200 50  0001 L CNN
+F 3 "" H 7200 3350 50  0000 C CNN
+	1    7200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_EEPROM:24LC32 U12
+U 1 1 5EEED7CA
+P 8500 3450
+F 0 "U12" H 8250 3700 50  0000 C CNN
+F 1 "24LC32" H 8700 3700 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8550 3200 50  0001 L CNN
+F 3 "" H 8500 3350 50  0000 C CNN
+	1    8500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_EEPROM:24LC32 U14
+U 1 1 5EEED7D6
+P 5900 4850
+F 0 "U14" H 5650 5100 50  0000 C CNN
+F 1 "24LC32" H 6100 5100 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5950 4600 50  0001 L CNN
+F 3 "" H 5900 4750 50  0000 C CNN
+	1    5900 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_EEPROM:24LC32 U15
+U 1 1 5EEED7DC
+P 7200 4850
+F 0 "U15" H 6950 5100 50  0000 C CNN
+F 1 "24LC32" H 7400 5100 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7250 4600 50  0001 L CNN
+F 3 "" H 7200 4750 50  0000 C CNN
+	1    7200 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_EEPROM:24LC32 U16
+U 1 1 5EEED7E2
+P 8500 4850
+F 0 "U16" H 8250 5100 50  0000 C CNN
+F 1 "24LC32" H 8700 5100 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8550 4600 50  0001 L CNN
+F 3 "" H 8500 4750 50  0000 C CNN
+	1    8500 4850
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 2800 0    60   Input ~ 0
+SCL
+Text GLabel 1800 2950 0    60   Input ~ 0
+SDA
+Wire Wire Line
+	5350 3900 5350 3350
+Wire Wire Line
+	5350 3350 5500 3350
+Wire Wire Line
+	6650 4000 6650 3350
+Wire Wire Line
+	6650 3350 6800 3350
+Wire Wire Line
+	7950 4100 7950 3350
+Wire Wire Line
+	7950 3350 8100 3350
+Wire Wire Line
+	3250 4200 7950 4200
+Wire Wire Line
+	7950 4200 7950 4750
+Wire Wire Line
+	7950 4750 8100 4750
+Wire Wire Line
+	3250 4300 6650 4300
+Wire Wire Line
+	6650 4300 6650 4750
+Wire Wire Line
+	6650 4750 6800 4750
+Wire Wire Line
+	3250 4400 5350 4400
+Wire Wire Line
+	5350 4400 5350 4750
+Wire Wire Line
+	5350 4750 5500 4750
+Wire Wire Line
+	3250 4500 4050 4500
+Wire Wire Line
+	4050 4500 4050 4750
+Wire Wire Line
+	4050 4750 4200 4750
+Wire Wire Line
+	4200 4850 4150 4850
+Wire Wire Line
+	4150 4850 4150 4950
+Wire Wire Line
+	4200 4950 4150 4950
+Connection ~ 4150 4950
+Wire Wire Line
+	1800 2950 2050 2950
+Wire Wire Line
+	6400 2950 6400 3350
+Wire Wire Line
+	6400 3350 6300 3350
+Wire Wire Line
+	7700 2950 7700 3350
+Wire Wire Line
+	7700 3350 7600 3350
+Connection ~ 6400 2950
+Wire Wire Line
+	8950 3350 8900 3350
+Connection ~ 7700 2950
+Wire Wire Line
+	1800 2800 2150 2800
+Wire Wire Line
+	6500 2800 6500 3450
+Wire Wire Line
+	6500 3450 6300 3450
+Wire Wire Line
+	7800 2800 7800 3450
+Wire Wire Line
+	7800 3450 7600 3450
+Wire Wire Line
+	9050 2800 9050 3450
+Wire Wire Line
+	9050 3450 8900 3450
+Wire Wire Line
+	5100 4750 5000 4750
+Wire Wire Line
+	5200 4850 5000 4850
+Wire Wire Line
+	6400 4750 6300 4750
+Connection ~ 6400 3350
+Wire Wire Line
+	6500 4850 6300 4850
+Connection ~ 6500 3450
+Wire Wire Line
+	7700 4750 7600 4750
+Connection ~ 7700 3350
+Wire Wire Line
+	7800 4850 7600 4850
+Connection ~ 7800 3450
+Wire Wire Line
+	8950 4750 8900 4750
+Connection ~ 8950 3350
+Wire Wire Line
+	9050 4850 8900 4850
+Connection ~ 9050 3450
+Wire Wire Line
+	5500 3450 5450 3450
+Wire Wire Line
+	5500 3550 5450 3550
+Connection ~ 5450 3550
+Wire Wire Line
+	6800 3450 6750 3450
+Wire Wire Line
+	6800 3550 6750 3550
+Connection ~ 6750 3550
+Wire Wire Line
+	8100 3450 8050 3450
+Wire Wire Line
+	8100 3550 8050 3550
+Connection ~ 8050 3550
+Wire Wire Line
+	5500 4850 5450 4850
+Wire Wire Line
+	5450 4850 5450 4950
+Wire Wire Line
+	5500 4950 5450 4950
+Connection ~ 5450 4950
+Wire Wire Line
+	6800 4850 6750 4850
+Wire Wire Line
+	6750 4850 6750 4950
+Wire Wire Line
+	6800 4950 6750 4950
+Connection ~ 6750 4950
+Wire Wire Line
+	8100 4850 8050 4850
+Wire Wire Line
+	8050 4850 8050 4950
+Wire Wire Line
+	8100 4950 8050 4950
+Connection ~ 8050 4950
+Connection ~ 6500 2800
+Connection ~ 7800 2800
+Wire Wire Line
+	9150 4500 9150 3100
+Wire Wire Line
+	9250 5200 9250 3800
+Wire Wire Line
+	2150 3800 2250 3800
+Wire Wire Line
+	2150 2700 2150 2800
+Connection ~ 2150 2800
+Wire Wire Line
+	2050 3900 2250 3900
+Wire Wire Line
+	2050 2700 2050 2950
+Connection ~ 2050 2950
+Wire Wire Line
+	2250 4100 2050 4100
+Wire Wire Line
+	2050 4100 2050 4200
+Wire Wire Line
+	2250 4200 2050 4200
+Connection ~ 2050 4200
+Wire Wire Line
+	2250 4300 2050 4300
+Connection ~ 2050 4300
+$Comp
+L Device:R R36
+U 1 1 5EEED87B
+P 2150 2550
+F 0 "R36" V 2230 2550 50  0000 C CNN
+F 1 "10K" V 2150 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2080 2550 50  0001 C CNN
+F 3 "" H 2150 2550 50  0000 C CNN
+	1    2150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 5EEED881
+P 2050 2550
+F 0 "R34" V 1950 2550 50  0000 C CNN
+F 1 "10K" V 2050 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1980 2550 50  0001 C CNN
+F 3 "" H 2050 2550 50  0000 C CNN
+	1    2050 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2400 2150 2300
+Wire Wire Line
+	2050 2300 2150 2300
+Wire Wire Line
+	2050 2400 2050 2300
+Connection ~ 2150 2300
+Wire Wire Line
+	4150 4950 4150 5200
+Wire Wire Line
+	6400 2950 7700 2950
+Wire Wire Line
+	7700 2950 8950 2950
+Wire Wire Line
+	6400 3350 6400 4750
+Wire Wire Line
+	6500 3450 6500 4850
+Wire Wire Line
+	7700 3350 7700 4750
+Wire Wire Line
+	7800 3450 7800 4850
+Wire Wire Line
+	8950 3350 8950 4750
+Wire Wire Line
+	9050 3450 9050 4850
+Wire Wire Line
+	5450 3550 5450 3800
+Wire Wire Line
+	6750 3550 6750 3800
+Wire Wire Line
+	8050 3550 8050 3800
+Wire Wire Line
+	5450 4950 5450 5200
+Wire Wire Line
+	6750 4950 6750 5200
+Wire Wire Line
+	8050 4950 8050 5200
+Wire Wire Line
+	6500 2800 7800 2800
+Wire Wire Line
+	7800 2800 9050 2800
+Wire Wire Line
+	2150 2800 2150 3800
+Wire Wire Line
+	2050 2950 2050 3900
+Wire Wire Line
+	2050 4200 2050 4300
+Wire Wire Line
+	2050 4300 2050 5200
+Wire Wire Line
+	2150 2300 2750 2300
+$Comp
+L Interface_Expansion:PCF8574 U8
+U 1 1 5EEED7E8
+P 2750 4200
+F 0 "U8" H 2400 4800 50  0000 L CNN
+F 1 "PCF8574" H 2850 4800 50  0000 L CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 2750 4200 50  0001 C CNN
+F 3 "" H 2750 4200 50  0000 C CNN
+	1    2750 4200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2250 4600
+NoConn ~ 6300 4950
+NoConn ~ 7600 4950
+NoConn ~ 8900 4950
+NoConn ~ 5000 4950
+NoConn ~ 6300 3550
+NoConn ~ 7600 3550
+NoConn ~ 8900 3550
+Wire Wire Line
+	2750 3100 2750 3500
+NoConn ~ 5000 3550
+Wire Wire Line
+	2050 2950 5100 2950
+Wire Wire Line
+	2150 2800 5200 2800
+Wire Wire Line
+	5200 3450 5200 4850
+Wire Wire Line
+	5100 3350 5100 4750
+Wire Wire Line
+	5200 2800 6500 2800
+Wire Wire Line
+	5100 2950 6400 2950
+Wire Wire Line
+	4150 3550 4150 3800
+Connection ~ 5200 3450
+Connection ~ 5100 3350
+Connection ~ 5200 2800
+Wire Wire Line
+	5200 3450 5000 3450
+Wire Wire Line
+	5200 2800 5200 3450
+Connection ~ 5100 2950
+Wire Wire Line
+	5100 3350 5000 3350
+Wire Wire Line
+	5100 2950 5100 3350
+Connection ~ 4150 3550
+Wire Wire Line
+	4200 3550 4150 3550
+Wire Wire Line
+	4200 3450 4150 3450
+Wire Wire Line
+	4050 3350 4200 3350
+Wire Wire Line
+	4050 3800 4050 3350
+Wire Wire Line
+	8950 2950 8950 3350
+Wire Wire Line
+	4150 3450 4150 3550
+Wire Wire Line
+	8050 3450 8050 3550
+Wire Wire Line
+	6750 3450 6750 3550
+Wire Wire Line
+	5450 3450 5450 3550
+$Comp
+L Memory_EEPROM:24LC32 U9
+U 1 1 5EEED7B8
+P 4600 3450
+F 0 "U9" H 4350 3700 50  0000 C CNN
+F 1 "24LC32" H 4800 3700 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4650 3200 50  0001 L CNN
+F 3 "" H 4600 3350 50  0000 C CNN
+	1    4600 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 3800
+Wire Wire Line
+	5450 3800 5900 3800
+Connection ~ 6750 3800
+Connection ~ 8050 3800
+Wire Wire Line
+	8050 3800 8500 3800
+Wire Wire Line
+	8500 3750 8500 3800
+Connection ~ 8500 3800
+Wire Wire Line
+	8500 3800 9250 3800
+Wire Wire Line
+	5900 3750 5900 3800
+Connection ~ 5900 3800
+Wire Wire Line
+	5900 3800 6750 3800
+Wire Wire Line
+	9150 3100 8500 3100
+Wire Wire Line
+	5900 3150 5900 3100
+Connection ~ 5900 3100
+Wire Wire Line
+	7200 3150 7200 3100
+Connection ~ 7200 3100
+Wire Wire Line
+	7200 3100 5900 3100
+Wire Wire Line
+	8500 3150 8500 3100
+Connection ~ 8500 3100
+Wire Wire Line
+	8500 3100 7200 3100
+$Comp
+L Memory_EEPROM:24LC32 U13
+U 1 1 5EEED7D0
+P 4600 4850
+F 0 "U13" H 4350 5100 50  0000 C CNN
+F 1 "24LC32" H 4800 5100 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4650 4600 50  0001 L CNN
+F 3 "" H 4600 4750 50  0000 C CNN
+	1    4600 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 5200 2750 5200
+Connection ~ 2750 5200
+Wire Wire Line
+	2750 5200 4150 5200
+Wire Wire Line
+	8500 5150 8500 5200
+Connection ~ 8500 5200
+Wire Wire Line
+	8500 5200 9250 5200
+Wire Wire Line
+	7200 5150 7200 5200
+Connection ~ 7200 5200
+Wire Wire Line
+	7200 5200 8050 5200
+Wire Wire Line
+	5900 5150 5900 5200
+Connection ~ 5900 5200
+Wire Wire Line
+	5900 5200 6750 5200
+Wire Wire Line
+	4600 5150 4600 5200
+Connection ~ 4600 5200
+Wire Wire Line
+	4600 5200 5450 5200
+Connection ~ 4150 5200
+Wire Wire Line
+	4150 5200 4600 5200
+Connection ~ 5450 5200
+Wire Wire Line
+	5450 5200 5900 5200
+Connection ~ 6750 5200
+Wire Wire Line
+	6750 5200 7200 5200
+Connection ~ 8050 5200
+Wire Wire Line
+	8050 5200 8500 5200
+Wire Wire Line
+	9150 4500 8500 4500
+Wire Wire Line
+	4600 4500 4600 4550
+Wire Wire Line
+	5900 4550 5900 4500
+Connection ~ 5900 4500
+Wire Wire Line
+	5900 4500 4600 4500
+Wire Wire Line
+	7200 4550 7200 4500
+Connection ~ 7200 4500
+Wire Wire Line
+	7200 4500 5900 4500
+Wire Wire Line
+	8500 4550 8500 4500
+Connection ~ 8500 4500
+Wire Wire Line
+	8500 4500 7200 4500
+Wire Wire Line
+	2750 2300 2750 3100
+Connection ~ 2750 3100
+$Comp
+L power:Earth #PWR?
+U 1 1 5FBAED11
+P 2750 5300
+AR Path="/5FBAED11" Ref="#PWR?"  Part="1" 
+AR Path="/5EEE3201/5FBAED11" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 2750 5050 50  0001 C CNN
+F 1 "Earth" H 2750 5150 50  0001 C CNN
+F 2 "" H 2750 5300 50  0000 C CNN
+F 3 "" H 2750 5300 50  0000 C CNN
+	1    2750 5300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 5200 2750 5300
+Wire Wire Line
+	2750 4900 2750 5200
+Wire Wire Line
+	4150 3800 4600 3800
+Wire Wire Line
+	4600 3750 4600 3800
+Connection ~ 4600 3800
+Wire Wire Line
+	4600 3800 5450 3800
+Wire Wire Line
+	3250 4100 7950 4100
+Wire Wire Line
+	3250 4000 6650 4000
+Wire Wire Line
+	3250 3900 5350 3900
+Wire Wire Line
+	3250 3800 4050 3800
+Wire Wire Line
+	2750 3100 4600 3100
+Wire Wire Line
+	4600 3150 4600 3100
+Connection ~ 4600 3100
+Wire Wire Line
+	4600 3100 5900 3100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EFED0AB
+P 2750 2150
+AR Path="/5EFED0AB" Ref="#PWR?"  Part="1" 
+AR Path="/5EEE3201/5EFED0AB" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 2750 2000 50  0001 C CNN
+F 1 "+3V3" H 2765 2323 50  0000 C CNN
+F 2 "" H 2750 2150 50  0001 C CNN
+F 3 "" H 2750 2150 50  0001 C CNN
+	1    2750 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2150 2750 2300
+Connection ~ 2750 2300
+Wire Wire Line
+	6750 3800 7200 3800
+Wire Wire Line
+	7200 3750 7200 3800
+Connection ~ 7200 3800
+Wire Wire Line
+	7200 3800 8050 3800
+$EndSCHEMATC
