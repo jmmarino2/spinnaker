@@ -14,6 +14,336 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
+L power:Earth #PWR?
+U 1 1 5EF5E934
+P 3400 2050
+AR Path="/5EF5E934" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB4C53/5EF5E934" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 3400 1800 50  0001 C CNN
+F 1 "Earth" H 3400 1900 50  0001 C CNN
+F 2 "" H 3400 2050 50  0000 C CNN
+F 3 "" H 3400 2050 50  0000 C CNN
+	1    3400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5EF5E976
+P 4250 3550
+AR Path="/5EF5E976" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB4C53/5EF5E976" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 4250 3300 50  0001 C CNN
+F 1 "Earth" H 4250 3400 50  0001 C CNN
+F 2 "" H 4250 3550 50  0000 C CNN
+F 3 "" H 4250 3550 50  0000 C CNN
+	1    4250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5EF5E97C
+P 5550 2600
+AR Path="/5EF5E97C" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB4C53/5EF5E97C" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 5550 2350 50  0001 C CNN
+F 1 "Earth" H 5550 2450 50  0001 C CNN
+F 2 "" H 5550 2600 50  0000 C CNN
+F 3 "" H 5550 2600 50  0000 C CNN
+	1    5550 2600
+	1    0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5EF5E982
+P 6850 3450
+AR Path="/5EF5E982" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB4C53/5EF5E982" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 6850 3200 50  0001 C CNN
+F 1 "Earth" H 6850 3300 50  0001 C CNN
+F 2 "" H 6850 3450 50  0000 C CNN
+F 3 "" H 6850 3450 50  0000 C CNN
+	1    6850 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 3900 2850 0    60   Input ~ 0
+LEFT_INPUT
+$Comp
+L power:Earth #PWR?
+U 1 1 5EF5E98F
+P 3400 2050
+AR Path="/5EF5E98F" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB4C53/5EF5E98F" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 3400 1800 50  0001 C CNN
+F 1 "Earth" H 3400 1900 50  0001 C CNN
+F 2 "" H 3400 2050 50  0000 C CNN
+F 3 "" H 3400 2050 50  0000 C CNN
+	1    3400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5EF5E9E9
+P 4250 5650
+AR Path="/5EF5E9E9" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB4C53/5EF5E9E9" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 4250 5400 50  0001 C CNN
+F 1 "Earth" H 4250 5500 50  0001 C CNN
+F 2 "" H 4250 5650 50  0000 C CNN
+F 3 "" H 4250 5650 50  0000 C CNN
+	1    4250 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5EF5E9EF
+P 5550 4700
+AR Path="/5EF5E9EF" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB4C53/5EF5E9EF" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 5550 4450 50  0001 C CNN
+F 1 "Earth" H 5550 4550 50  0001 C CNN
+F 2 "" H 5550 4700 50  0000 C CNN
+F 3 "" H 5550 4700 50  0000 C CNN
+	1    5550 4700
+	1    0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5EF5E9F5
+P 6850 5550
+AR Path="/5EF5E9F5" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB4C53/5EF5E9F5" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 6850 5300 50  0001 C CNN
+F 1 "Earth" H 6850 5400 50  0001 C CNN
+F 2 "" H 6850 5550 50  0000 C CNN
+F 3 "" H 6850 5550 50  0000 C CNN
+	1    6850 5550
+	1    0    0    -1  
+$EndComp
+Text GLabel 3900 4950 0    60   Input ~ 0
+RIGHT_INPUT
+$Comp
+L power:Earth #PWR?
+U 1 1 5EF5EA02
+P 3400 4150
+AR Path="/5EF5EA02" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB4C53/5EF5EA02" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 3400 3900 50  0001 C CNN
+F 1 "Earth" H 3400 4000 50  0001 C CNN
+F 2 "" H 3400 4150 50  0000 C CNN
+F 3 "" H 3400 4150 50  0000 C CNN
+	1    3400 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4900 3550 2    60   Input ~ 0
+4V5
+Text GLabel 4900 5750 2    60   Input ~ 0
+4V5
+Wire Wire Line
+	5400 2350 5200 2350
+Wire Wire Line
+	5200 2000 5200 2350
+Wire Wire Line
+	5200 2850 5350 2850
+Wire Wire Line
+	4900 2000 5200 2000
+Connection ~ 5200 2350
+Wire Wire Line
+	3400 2050 3400 1850
+Wire Wire Line
+	3400 1850 3600 1850
+Wire Wire Line
+	3900 1850 4100 1850
+Connection ~ 5200 2000
+Wire Wire Line
+	6850 2950 6850 3050
+Wire Wire Line
+	4250 3150 4250 3050
+Wire Wire Line
+	4250 2850 4250 3050
+Wire Wire Line
+	4700 3050 4800 3050
+Wire Wire Line
+	4800 3150 4800 3050
+Connection ~ 4800 3050
+Wire Wire Line
+	5200 3050 5350 3050
+Wire Wire Line
+	4250 3450 4250 3500
+Wire Wire Line
+	4800 3450 4800 3550
+Wire Wire Line
+	6850 3350 6850 3450
+Wire Wire Line
+	6350 2950 6450 2950
+Wire Wire Line
+	5700 2350 6000 2350
+Wire Wire Line
+	6000 2000 6000 2350
+Connection ~ 6000 2950
+Wire Wire Line
+	5700 2000 6000 2000
+Connection ~ 6000 2350
+Wire Wire Line
+	5950 2950 6000 2950
+Connection ~ 4250 3050
+Connection ~ 6850 2950
+Wire Wire Line
+	5550 3250 5550 3350
+Wire Wire Line
+	5400 4450 5200 4450
+Wire Wire Line
+	5200 4100 5200 4450
+Wire Wire Line
+	5200 4950 5350 4950
+Wire Wire Line
+	4900 4100 5200 4100
+Connection ~ 5200 4450
+Wire Wire Line
+	3400 4150 3400 3950
+Wire Wire Line
+	3400 3950 3600 3950
+Wire Wire Line
+	3900 3950 4100 3950
+Connection ~ 5200 4100
+Wire Wire Line
+	6850 5050 6850 5150
+Wire Wire Line
+	4250 5250 4250 5150
+Wire Wire Line
+	4700 5150 4800 5150
+Wire Wire Line
+	4800 5250 4800 5150
+Connection ~ 4800 5150
+Wire Wire Line
+	5200 5150 5350 5150
+Wire Wire Line
+	4250 5550 4250 5600
+Wire Wire Line
+	4800 5550 4800 5750
+Wire Wire Line
+	6850 5450 6850 5550
+Wire Wire Line
+	6350 5050 6450 5050
+Wire Wire Line
+	5700 4450 6000 4450
+Wire Wire Line
+	6000 4100 6000 4450
+Connection ~ 6000 5050
+Wire Wire Line
+	5700 4100 6000 4100
+Connection ~ 6000 4450
+Wire Wire Line
+	5950 5050 6000 5050
+Connection ~ 4250 5150
+Connection ~ 6850 5050
+Wire Wire Line
+	4800 3550 4900 3550
+Wire Wire Line
+	4800 5750 4900 5750
+Wire Wire Line
+	6750 2950 6850 2950
+Wire Wire Line
+	6750 5050 6850 5050
+Wire Wire Line
+	5200 2350 5200 2850
+Wire Wire Line
+	5200 2000 5400 2000
+Wire Wire Line
+	4800 3050 4900 3050
+Wire Wire Line
+	6000 2950 6050 2950
+Wire Wire Line
+	6000 2350 6000 2950
+Wire Wire Line
+	4250 3050 4400 3050
+Wire Wire Line
+	6850 2950 7450 2950
+Wire Wire Line
+	5200 4450 5200 4950
+Wire Wire Line
+	5200 4100 5400 4100
+Wire Wire Line
+	4800 5150 4900 5150
+Wire Wire Line
+	6000 5050 6050 5050
+Wire Wire Line
+	6000 4450 6000 5050
+Wire Wire Line
+	4250 5150 4400 5150
+Wire Wire Line
+	6850 5050 7450 5050
+Text GLabel 7450 2950 2    60   Input ~ 0
+LEFT_PREOUT
+Text GLabel 7450 5050 2    60   Input ~ 0
+RIGHT_PREOUT
+Wire Wire Line
+	3750 3050 4250 3050
+Wire Wire Line
+	4250 2850 3900 2850
+Wire Wire Line
+	3750 5150 4250 5150
+Wire Wire Line
+	3900 4950 4250 4950
+Wire Wire Line
+	4250 4950 4250 5150
+Wire Wire Line
+	3750 3150 3950 3150
+Wire Wire Line
+	3950 3150 3950 3500
+Wire Wire Line
+	3950 3500 4250 3500
+Connection ~ 4250 3500
+Wire Wire Line
+	4250 3500 4250 3550
+Wire Wire Line
+	3750 5250 3950 5250
+Wire Wire Line
+	3950 5250 3950 5600
+Wire Wire Line
+	3950 5600 4250 5600
+Connection ~ 4250 5600
+Wire Wire Line
+	4250 5600 4250 5650
+Wire Wire Line
+	5550 4700 5550 4750
+Wire Wire Line
+	5550 5350 5550 5450
+$Comp
+L power:+9V #PWR?
+U 1 1 5FA7DE6C
+P 5550 3350
+AR Path="/5F052A76/5FA7DE6C" Ref="#PWR?"  Part="1" 
+AR Path="/5FA7DE6C" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB4C53/5FA7DE6C" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 5550 3200 50  0001 C CNN
+F 1 "+9V" H 5565 3523 50  0000 C CNN
+F 2 "" H 5550 3350 50  0001 C CNN
+F 3 "" H 5550 3350 50  0001 C CNN
+	1    5550 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+9V #PWR?
+U 1 1 5FA7FF3C
+P 5550 5450
+AR Path="/5F052A76/5FA7FF3C" Ref="#PWR?"  Part="1" 
+AR Path="/5FA7FF3C" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB4C53/5FA7FF3C" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 5550 5300 50  0001 C CNN
+F 1 "+9V" H 5565 5623 50  0000 C CNN
+F 2 "" H 5550 5450 50  0001 C CNN
+F 3 "" H 5550 5450 50  0001 C CNN
+	1    5550 5450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 2600 5550 2650
+Connection ~ 3400 2050
+Wire Wire Line
+	4400 1850 4750 1850
+Wire Wire Line
+	4400 3950 4750 3950
+$Comp
 L spinnaker-rescue:TL071 U?
 U 1 1 5EF5E92E
 P 5650 2950
@@ -25,19 +355,6 @@ F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5700 3150 50  0001 C CNN
 F 3 "" H 5650 3200 50  0000 C CNN
 	1    5650 2950
 	1    0    0    1   
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5EF5E934
-P 3400 2200
-AR Path="/5EF5E934" Ref="#PWR?"  Part="1" 
-AR Path="/5EDB4C53/5EF5E934" Ref="#PWR01"  Part="1" 
-F 0 "#PWR01" H 3400 1950 50  0001 C CNN
-F 1 "Earth" H 3400 2050 50  0001 C CNN
-F 2 "" H 3400 2200 50  0000 C CNN
-F 3 "" H 3400 2200 50  0000 C CNN
-	1    3400 2200
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
@@ -107,14 +424,14 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 5EF5E958
-P 4250 2000
+P 4250 1850
 AR Path="/5EF5E958" Ref="R?"  Part="1" 
 AR Path="/5EDB4C53/5EF5E958" Ref="R1"  Part="1" 
-F 0 "R1" V 4330 2000 50  0000 C CNN
-F 1 "2K7" V 4250 2000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4180 2000 50  0001 C CNN
-F 3 "" H 4250 2000 50  0000 C CNN
-	1    4250 2000
+F 0 "R1" V 4330 1850 50  0000 C CNN
+F 1 "2K7" V 4250 1850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4180 1850 50  0001 C CNN
+F 3 "" H 4250 1850 50  0000 C CNN
+	1    4250 1850
 	0    1    1    0   
 $EndComp
 $Comp
@@ -146,14 +463,14 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5EF5E96A
-P 3750 2000
+P 3750 1850
 AR Path="/5EF5E96A" Ref="C?"  Part="1" 
 AR Path="/5EDB4C53/5EF5E96A" Ref="C1"  Part="1" 
-F 0 "C1" V 3600 1950 50  0000 L CNN
-F 1 "4.7uF" V 3900 1900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3788 1850 50  0001 C CNN
-F 3 "" H 3750 2000 50  0000 C CNN
-	1    3750 2000
+F 0 "C1" V 3600 1800 50  0000 L CNN
+F 1 "4.7uF" V 3900 1750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3788 1700 50  0001 C CNN
+F 3 "" H 3750 1850 50  0000 C CNN
+	1    3750 1850
 	0    1    1    0   
 $EndComp
 $Comp
@@ -170,60 +487,6 @@ F 3 "" H 5550 2350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:Earth #PWR?
-U 1 1 5EF5E976
-P 4250 3550
-AR Path="/5EF5E976" Ref="#PWR?"  Part="1" 
-AR Path="/5EDB4C53/5EF5E976" Ref="#PWR05"  Part="1" 
-F 0 "#PWR05" H 4250 3300 50  0001 C CNN
-F 1 "Earth" H 4250 3400 50  0001 C CNN
-F 2 "" H 4250 3550 50  0000 C CNN
-F 3 "" H 4250 3550 50  0000 C CNN
-	1    4250 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5EF5E97C
-P 5550 2600
-AR Path="/5EF5E97C" Ref="#PWR?"  Part="1" 
-AR Path="/5EDB4C53/5EF5E97C" Ref="#PWR07"  Part="1" 
-F 0 "#PWR07" H 5550 2350 50  0001 C CNN
-F 1 "Earth" H 5550 2450 50  0001 C CNN
-F 2 "" H 5550 2600 50  0000 C CNN
-F 3 "" H 5550 2600 50  0000 C CNN
-	1    5550 2600
-	1    0    0    1   
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5EF5E982
-P 6850 3450
-AR Path="/5EF5E982" Ref="#PWR?"  Part="1" 
-AR Path="/5EDB4C53/5EF5E982" Ref="#PWR013"  Part="1" 
-F 0 "#PWR013" H 6850 3200 50  0001 C CNN
-F 1 "Earth" H 6850 3300 50  0001 C CNN
-F 2 "" H 6850 3450 50  0000 C CNN
-F 3 "" H 6850 3450 50  0000 C CNN
-	1    6850 3450
-	1    0    0    -1  
-$EndComp
-Text GLabel 3900 2850 0    60   Input ~ 0
-LEFT_INPUT
-$Comp
-L power:Earth #PWR?
-U 1 1 5EF5E98F
-P 3400 2200
-AR Path="/5EF5E98F" Ref="#PWR?"  Part="1" 
-AR Path="/5EDB4C53/5EF5E98F" Ref="#PWR02"  Part="1" 
-F 0 "#PWR02" H 3400 1950 50  0001 C CNN
-F 1 "Earth" H 3400 2050 50  0001 C CNN
-F 2 "" H 3400 2200 50  0000 C CNN
-F 3 "" H 3400 2200 50  0000 C CNN
-	1    3400 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L spinnaker-rescue:POT RV?
 U 1 1 5EF5E99B
 P 4750 2000
@@ -231,10 +494,10 @@ AR Path="/5EF5E99B" Ref="RV?"  Part="1"
 AR Path="/5EDB4C53/5EF5E99B" Ref="RV1"  Part="1" 
 F 0 "RV1" V 4850 2150 50  0000 C CNN
 F 1 "500K" V 4650 2000 50  0000 C CNN
-F 2 "Connectors:1X03_LONGPADS" H 4750 2000 50  0001 C CNN
+F 2 "Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm" H 4750 2000 50  0001 C CNN
 F 3 "" H 4750 2000 50  0000 C CNN
 	1    4750 2000
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L spinnaker-rescue:TL071 U?
@@ -317,14 +580,14 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 5EF5E9CB
-P 4250 4100
+P 4250 3950
 AR Path="/5EF5E9CB" Ref="R?"  Part="1" 
 AR Path="/5EDB4C53/5EF5E9CB" Ref="R3"  Part="1" 
-F 0 "R3" V 4330 4100 50  0000 C CNN
-F 1 "2K7" V 4250 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4180 4100 50  0001 C CNN
-F 3 "" H 4250 4100 50  0000 C CNN
-	1    4250 4100
+F 0 "R3" V 4330 3950 50  0000 C CNN
+F 1 "2K7" V 4250 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4180 3950 50  0001 C CNN
+F 3 "" H 4250 3950 50  0000 C CNN
+	1    4250 3950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -356,14 +619,14 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5EF5E9DD
-P 3750 4100
+P 3750 3950
 AR Path="/5EF5E9DD" Ref="C?"  Part="1" 
 AR Path="/5EDB4C53/5EF5E9DD" Ref="C2"  Part="1" 
-F 0 "C2" V 3600 4050 50  0000 L CNN
-F 1 "4.7uF" V 3900 4000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3788 3950 50  0001 C CNN
-F 3 "" H 3750 4100 50  0000 C CNN
-	1    3750 4100
+F 0 "C2" V 3600 3900 50  0000 L CNN
+F 1 "4.7uF" V 3900 3850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3788 3800 50  0001 C CNN
+F 3 "" H 3750 3950 50  0000 C CNN
+	1    3750 3950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -380,60 +643,6 @@ F 3 "" H 5550 4450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:Earth #PWR?
-U 1 1 5EF5E9E9
-P 4250 5650
-AR Path="/5EF5E9E9" Ref="#PWR?"  Part="1" 
-AR Path="/5EDB4C53/5EF5E9E9" Ref="#PWR06"  Part="1" 
-F 0 "#PWR06" H 4250 5400 50  0001 C CNN
-F 1 "Earth" H 4250 5500 50  0001 C CNN
-F 2 "" H 4250 5650 50  0000 C CNN
-F 3 "" H 4250 5650 50  0000 C CNN
-	1    4250 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5EF5E9EF
-P 5550 4700
-AR Path="/5EF5E9EF" Ref="#PWR?"  Part="1" 
-AR Path="/5EDB4C53/5EF5E9EF" Ref="#PWR010"  Part="1" 
-F 0 "#PWR010" H 5550 4450 50  0001 C CNN
-F 1 "Earth" H 5550 4550 50  0001 C CNN
-F 2 "" H 5550 4700 50  0000 C CNN
-F 3 "" H 5550 4700 50  0000 C CNN
-	1    5550 4700
-	1    0    0    1   
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5EF5E9F5
-P 6850 5550
-AR Path="/5EF5E9F5" Ref="#PWR?"  Part="1" 
-AR Path="/5EDB4C53/5EF5E9F5" Ref="#PWR014"  Part="1" 
-F 0 "#PWR014" H 6850 5300 50  0001 C CNN
-F 1 "Earth" H 6850 5400 50  0001 C CNN
-F 2 "" H 6850 5550 50  0000 C CNN
-F 3 "" H 6850 5550 50  0000 C CNN
-	1    6850 5550
-	1    0    0    -1  
-$EndComp
-Text GLabel 3900 4950 0    60   Input ~ 0
-RIGHT_INPUT
-$Comp
-L power:Earth #PWR?
-U 1 1 5EF5EA02
-P 3400 4300
-AR Path="/5EF5EA02" Ref="#PWR?"  Part="1" 
-AR Path="/5EDB4C53/5EF5EA02" Ref="#PWR04"  Part="1" 
-F 0 "#PWR04" H 3400 4050 50  0001 C CNN
-F 1 "Earth" H 3400 4150 50  0001 C CNN
-F 2 "" H 3400 4300 50  0000 C CNN
-F 3 "" H 3400 4300 50  0000 C CNN
-	1    3400 4300
-	1    0    0    -1  
-$EndComp
-$Comp
 L spinnaker-rescue:POT RV?
 U 1 1 5EF5EA0E
 P 4750 4100
@@ -441,15 +650,11 @@ AR Path="/5EF5EA0E" Ref="RV?"  Part="1"
 AR Path="/5EDB4C53/5EF5EA0E" Ref="RV2"  Part="1" 
 F 0 "RV2" V 4850 4250 50  0000 C CNN
 F 1 "500K" V 4650 4100 50  0000 C CNN
-F 2 "Connectors:1X03_LONGPADS" H 4750 4100 50  0001 C CNN
+F 2 "Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm" H 4750 4100 50  0001 C CNN
 F 3 "" H 4750 4100 50  0000 C CNN
 	1    4750 4100
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
-Text GLabel 4900 3550 2    60   Input ~ 0
-4V5
-Text GLabel 4900 5750 2    60   Input ~ 0
-4V5
 $Comp
 L Device:CP1 C?
 U 1 1 5EF5EA16
@@ -476,169 +681,13 @@ F 3 "" H 6200 5050 50  0000 C CNN
 	1    6200 5050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5400 2350 5200 2350
-Wire Wire Line
-	5200 2000 5200 2350
-Wire Wire Line
-	5200 2850 5350 2850
-Wire Wire Line
-	4900 2000 5200 2000
-Connection ~ 5200 2350
-Wire Wire Line
-	3400 2200 3400 2000
-Wire Wire Line
-	3400 2000 3600 2000
-Wire Wire Line
-	3900 2000 4100 2000
-Wire Wire Line
-	4400 2000 4500 2000
-Connection ~ 5200 2000
-Wire Wire Line
-	4500 2000 4500 1850
-Wire Wire Line
-	4500 1850 4750 1850
-Connection ~ 4500 2000
-Wire Wire Line
-	6850 2950 6850 3050
-Wire Wire Line
-	4250 3150 4250 3050
-Wire Wire Line
-	4250 2850 4250 3050
-Wire Wire Line
-	4700 3050 4800 3050
-Wire Wire Line
-	4800 3150 4800 3050
-Connection ~ 4800 3050
-Wire Wire Line
-	5200 3050 5350 3050
-Wire Wire Line
-	4250 3450 4250 3500
-Wire Wire Line
-	4800 3450 4800 3550
-Wire Wire Line
-	6850 3350 6850 3450
-Wire Wire Line
-	6350 2950 6450 2950
-Wire Wire Line
-	5700 2350 6000 2350
-Wire Wire Line
-	6000 2000 6000 2350
-Connection ~ 6000 2950
-Wire Wire Line
-	5700 2000 6000 2000
-Connection ~ 6000 2350
-Wire Wire Line
-	5950 2950 6000 2950
-Connection ~ 4250 3050
-Connection ~ 6850 2950
-Wire Wire Line
-	5550 3250 5550 3350
-Wire Wire Line
-	5400 4450 5200 4450
-Wire Wire Line
-	5200 4100 5200 4450
-Wire Wire Line
-	5200 4950 5350 4950
-Wire Wire Line
-	4900 4100 5200 4100
-Connection ~ 5200 4450
-Wire Wire Line
-	3400 4300 3400 4100
-Wire Wire Line
-	3400 4100 3600 4100
-Wire Wire Line
-	3900 4100 4100 4100
-Wire Wire Line
-	4400 4100 4500 4100
-Connection ~ 5200 4100
-Wire Wire Line
-	4500 4100 4500 3950
-Wire Wire Line
-	4500 3950 4750 3950
-Connection ~ 4500 4100
-Wire Wire Line
-	6850 5050 6850 5150
-Wire Wire Line
-	4250 5250 4250 5150
-Wire Wire Line
-	4700 5150 4800 5150
-Wire Wire Line
-	4800 5250 4800 5150
-Connection ~ 4800 5150
-Wire Wire Line
-	5200 5150 5350 5150
-Wire Wire Line
-	4250 5550 4250 5600
-Wire Wire Line
-	4800 5550 4800 5750
-Wire Wire Line
-	6850 5450 6850 5550
-Wire Wire Line
-	6350 5050 6450 5050
-Wire Wire Line
-	5700 4450 6000 4450
-Wire Wire Line
-	6000 4100 6000 4450
-Connection ~ 6000 5050
-Wire Wire Line
-	5700 4100 6000 4100
-Connection ~ 6000 4450
-Wire Wire Line
-	5950 5050 6000 5050
-Connection ~ 4250 5150
-Connection ~ 6850 5050
-Wire Wire Line
-	4800 3550 4900 3550
-Wire Wire Line
-	4800 5750 4900 5750
-Wire Wire Line
-	6750 2950 6850 2950
-Wire Wire Line
-	6750 5050 6850 5050
-Wire Wire Line
-	5200 2350 5200 2850
-Wire Wire Line
-	5200 2000 5400 2000
-Wire Wire Line
-	4500 2000 4600 2000
-Wire Wire Line
-	4800 3050 4900 3050
-Wire Wire Line
-	6000 2950 6050 2950
-Wire Wire Line
-	6000 2350 6000 2950
-Wire Wire Line
-	4250 3050 4400 3050
-Wire Wire Line
-	6850 2950 7450 2950
-Wire Wire Line
-	5200 4450 5200 4950
-Wire Wire Line
-	5200 4100 5400 4100
-Wire Wire Line
-	4500 4100 4600 4100
-Wire Wire Line
-	4800 5150 4900 5150
-Wire Wire Line
-	6000 5050 6050 5050
-Wire Wire Line
-	6000 4450 6000 5050
-Wire Wire Line
-	4250 5150 4400 5150
-Wire Wire Line
-	6850 5050 7450 5050
-Text GLabel 7450 2950 2    60   Input ~ 0
-LEFT_PREOUT
-Text GLabel 7450 5050 2    60   Input ~ 0
-RIGHT_PREOUT
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5EE70FC2
 P 3550 3050
 F 0 "J1" H 3550 2850 50  0000 C CNN
 F 1 "Conn_01x02" H 3550 2750 50  0000 C CNN
-F 2 "Connectors:1X02_LONGPADS" H 3550 3050 50  0001 C CNN
+F 2 "Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm" H 3550 3050 50  0001 C CNN
 F 3 "~" H 3550 3050 50  0001 C CNN
 	1    3550 3050
 	-1   0    0    -1  
@@ -649,71 +698,9 @@ U 1 1 5EE72B63
 P 3550 5150
 F 0 "J2" H 3550 4950 50  0000 C CNN
 F 1 "Conn_01x02" H 3550 4850 50  0000 C CNN
-F 2 "Connectors:1X02_LONGPADS" H 3550 5150 50  0001 C CNN
+F 2 "Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm" H 3550 5150 50  0001 C CNN
 F 3 "~" H 3550 5150 50  0001 C CNN
 	1    3550 5150
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3750 3050 4250 3050
-Wire Wire Line
-	4250 2850 3900 2850
-Wire Wire Line
-	3750 5150 4250 5150
-Wire Wire Line
-	3900 4950 4250 4950
-Wire Wire Line
-	4250 4950 4250 5150
-Wire Wire Line
-	3750 3150 3950 3150
-Wire Wire Line
-	3950 3150 3950 3500
-Wire Wire Line
-	3950 3500 4250 3500
-Connection ~ 4250 3500
-Wire Wire Line
-	4250 3500 4250 3550
-Wire Wire Line
-	3750 5250 3950 5250
-Wire Wire Line
-	3950 5250 3950 5600
-Wire Wire Line
-	3950 5600 4250 5600
-Connection ~ 4250 5600
-Wire Wire Line
-	4250 5600 4250 5650
-Wire Wire Line
-	5550 4700 5550 4750
-Wire Wire Line
-	5550 5350 5550 5450
-$Comp
-L power:+9V #PWR?
-U 1 1 5FA7DE6C
-P 5550 3350
-AR Path="/5F052A76/5FA7DE6C" Ref="#PWR?"  Part="1" 
-AR Path="/5FA7DE6C" Ref="#PWR?"  Part="1" 
-AR Path="/5EDB4C53/5FA7DE6C" Ref="#PWR017"  Part="1" 
-F 0 "#PWR017" H 5550 3200 50  0001 C CNN
-F 1 "+9V" H 5565 3523 50  0000 C CNN
-F 2 "" H 5550 3350 50  0001 C CNN
-F 3 "" H 5550 3350 50  0001 C CNN
-	1    5550 3350
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+9V #PWR?
-U 1 1 5FA7FF3C
-P 5550 5450
-AR Path="/5F052A76/5FA7FF3C" Ref="#PWR?"  Part="1" 
-AR Path="/5FA7FF3C" Ref="#PWR?"  Part="1" 
-AR Path="/5EDB4C53/5FA7FF3C" Ref="#PWR019"  Part="1" 
-F 0 "#PWR019" H 5550 5300 50  0001 C CNN
-F 1 "+9V" H 5565 5623 50  0000 C CNN
-F 2 "" H 5550 5450 50  0001 C CNN
-F 3 "" H 5550 5450 50  0001 C CNN
-	1    5550 5450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5550 2600 5550 2650
 $EndSCHEMATC
