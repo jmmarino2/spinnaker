@@ -732,13 +732,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J5
 U 1 1 5F0C2F94
-P 1300 1950
-F 0 "J5" H 1218 1625 50  0000 C CNN
-F 1 "Conn_01x02" H 1218 1716 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 1300 1950 50  0001 C CNN
-F 3 "~" H 1300 1950 50  0001 C CNN
-	1    1300 1950
-	-1   0    0    1   
+P 1300 1850
+F 0 "J5" H 1300 1950 50  0000 C CNN
+F 1 "Conn_01x02" H 1300 1650 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 1300 1850 50  0001 C CNN
+F 3 "~" H 1300 1850 50  0001 C CNN
+	1    1300 1850
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Regulator_Switching:MP1470 U19
@@ -969,4 +969,17 @@ Wire Wire Line
 Wire Wire Line
 	5950 3050 5050 3050
 Connection ~ 5050 3050
+Wire Wire Line
+	6750 3850 6750 3600
+$Comp
+L power:+5VD #PWR0115
+U 1 1 5F09A718
+P 6750 3600
+F 0 "#PWR0115" H 6750 3450 50  0001 C CNN
+F 1 "+5VD" H 6765 3773 50  0000 C CNN
+F 2 "" H 6750 3600 50  0001 C CNN
+F 3 "" H 6750 3600 50  0001 C CNN
+	1    6750 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
