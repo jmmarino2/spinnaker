@@ -188,8 +188,6 @@ Wire Wire Line
 Connection ~ 4250 3050
 Connection ~ 6850 2950
 Wire Wire Line
-	5550 3250 5550 3350
-Wire Wire Line
 	5400 4450 5200 4450
 Wire Wire Line
 	5200 4100 5200 4450
@@ -308,34 +306,6 @@ Wire Wire Line
 	5550 4700 5550 4750
 Wire Wire Line
 	5550 5350 5550 5450
-$Comp
-L power:+9V #PWR?
-U 1 1 5FA7DE6C
-P 5550 3350
-AR Path="/5F052A76/5FA7DE6C" Ref="#PWR?"  Part="1" 
-AR Path="/5FA7DE6C" Ref="#PWR?"  Part="1" 
-AR Path="/5EDB4C53/5FA7DE6C" Ref="#PWR017"  Part="1" 
-F 0 "#PWR017" H 5550 3200 50  0001 C CNN
-F 1 "+9V" H 5565 3523 50  0000 C CNN
-F 2 "" H 5550 3350 50  0001 C CNN
-F 3 "" H 5550 3350 50  0001 C CNN
-	1    5550 3350
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+9V #PWR?
-U 1 1 5FA7FF3C
-P 5550 5450
-AR Path="/5F052A76/5FA7FF3C" Ref="#PWR?"  Part="1" 
-AR Path="/5FA7FF3C" Ref="#PWR?"  Part="1" 
-AR Path="/5EDB4C53/5FA7FF3C" Ref="#PWR019"  Part="1" 
-F 0 "#PWR019" H 5550 5300 50  0001 C CNN
-F 1 "+9V" H 5565 5623 50  0000 C CNN
-F 2 "" H 5550 5450 50  0001 C CNN
-F 3 "" H 5550 5450 50  0001 C CNN
-	1    5550 5450
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5550 2600 5550 2650
 Connection ~ 3400 2050
@@ -343,19 +313,6 @@ Wire Wire Line
 	4400 1850 4750 1850
 Wire Wire Line
 	4400 3950 4750 3950
-$Comp
-L spinnaker-rescue:TL071 U?
-U 1 1 5EF5E92E
-P 5650 2950
-AR Path="/5EF5E92E" Ref="U?"  Part="1" 
-AR Path="/5EDB4C53/5EF5E92E" Ref="U2"  Part="1" 
-F 0 "U2" H 5650 3200 50  0000 L CNN
-F 1 "TL071" H 5650 3100 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5700 3150 50  0001 C CNN
-F 3 "" H 5650 3200 50  0000 C CNN
-	1    5650 2950
-	1    0    0    1   
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 5EF5E93A
@@ -487,7 +444,7 @@ F 3 "" H 5550 2350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L spinnaker-rescue:POT RV?
+L Device:R_POT RV?
 U 1 1 5EF5E99B
 P 4750 2000
 AR Path="/5EF5E99B" Ref="RV?"  Part="1" 
@@ -500,7 +457,7 @@ F 3 "" H 4750 2000 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L spinnaker-rescue:TL071 U?
+L Amplifier_Operational:TL071 U?
 U 1 1 5EF5E9A1
 P 5650 5050
 AR Path="/5EF5E9A1" Ref="U?"  Part="1" 
@@ -643,7 +600,7 @@ F 3 "" H 5550 4450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L spinnaker-rescue:POT RV?
+L Device:R_POT RV?
 U 1 1 5EF5EA0E
 P 4750 4100
 AR Path="/5EF5EA0E" Ref="RV?"  Part="1" 
@@ -703,4 +660,53 @@ F 3 "~" H 3550 5150 50  0001 C CNN
 	1    3550 5150
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Amplifier_Operational:TL071 U?
+U 1 1 5EF5E92E
+P 5650 2950
+AR Path="/5EF5E92E" Ref="U?"  Part="1" 
+AR Path="/5EDB4C53/5EF5E92E" Ref="U2"  Part="1" 
+F 0 "U2" H 5650 3200 50  0000 L CNN
+F 1 "TL071" H 5650 3100 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5700 3150 50  0001 C CNN
+F 3 "" H 5650 3200 50  0000 C CNN
+	1    5650 2950
+	1    0    0    1   
+$EndComp
+NoConn ~ 5650 2650
+NoConn ~ 5750 2650
+NoConn ~ 5750 4750
+NoConn ~ 5650 4750
+Wire Wire Line
+	5550 3250 5550 3350
+$Comp
+L power:+9V #PWR?
+U 1 1 5F149760
+P 5550 3350
+AR Path="/5F052A76/5F149760" Ref="#PWR?"  Part="1" 
+AR Path="/5F149760" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB4C53/5F149760" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 5550 3200 50  0001 C CNN
+F 1 "+9V" H 5565 3523 50  0000 C CNN
+F 2 "" H 5550 3350 50  0001 C CNN
+F 3 "" H 5550 3350 50  0001 C CNN
+	1    5550 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+9V #PWR?
+U 1 1 5F14C01C
+P 5550 5450
+AR Path="/5F052A76/5F14C01C" Ref="#PWR?"  Part="1" 
+AR Path="/5F14C01C" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB4C53/5F14C01C" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 5550 5300 50  0001 C CNN
+F 1 "+9V" H 5565 5623 50  0000 C CNN
+F 2 "" H 5550 5450 50  0001 C CNN
+F 3 "" H 5550 5450 50  0001 C CNN
+	1    5550 5450
+	-1   0    0    1   
+$EndComp
+NoConn ~ 4600 2000
+NoConn ~ 4600 4100
 $EndSCHEMATC

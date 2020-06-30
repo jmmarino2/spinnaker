@@ -14,22 +14,26 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L spinnaker-rescue:AudioJack2_Ground_Switch J101
+L Connector:AudioJack2_SwitchT J101
 U 1 1 5F00B708
 P 3200 2250
+AR Path="/5F00B708" Ref="J101"  Part="1" 
+AR Path="/5EFE207B/5F00B708" Ref="J101"  Part="1" 
 F 0 "J101" H 3200 2600 50  0000 C CNN
-F 1 "AudioJack2_Ground_Switch" H 3200 2500 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 3200 2500 50  0000 C CNN
 F 2 "" H 3200 2250 50  0001 C CNN
 F 3 "" H 3200 2250 50  0001 C CNN
 	1    3200 2250
 	1    0    0    -1  
 $EndComp
 $Comp
-L spinnaker-rescue:AudioJack2_Ground_Switch J103
+L Connector:AudioJack2_SwitchT J103
 U 1 1 5F00B714
 P 6850 2250
+AR Path="/5F00B714" Ref="J103"  Part="1" 
+AR Path="/5EFE207B/5F00B714" Ref="J103"  Part="1" 
 F 0 "J103" H 6850 2600 50  0000 C CNN
-F 1 "AudioJack2_Ground_Switch" H 6850 2500 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 6850 2500 50  0000 C CNN
 F 2 "" H 6850 2250 50  0001 C CNN
 F 3 "" H 6850 2250 50  0001 C CNN
 	1    6850 2250
@@ -84,7 +88,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 2350 6000 2550
 $Comp
-L spinnaker-rescue:SWITCH-3PDT-PTH-STOMP-SparkFun-Switches S1
+L SparkFun-Switches:SWITCH-3PDT-PTH-STOMP S1
 U 1 1 5ED5B31A
 P 4400 2250
 AR Path="/5ED5B31A" Ref="S1"  Part="1" 
@@ -98,7 +102,7 @@ F 4 "SWCH-13197" H 4350 2447 60  0000 C CNN "Campo4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L spinnaker-rescue:SWITCH-3PDT-PTH-STOMP-SparkFun-Switches S1
+L SparkFun-Switches:SWITCH-3PDT-PTH-STOMP S1
 U 2 1 5ED5F695
 P 5600 2250
 AR Path="/5ED5F695" Ref="S1"  Part="2" 
@@ -112,7 +116,7 @@ F 4 "SWCH-13197" H 5550 2447 60  0000 C CNN "Campo4"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L spinnaker-rescue:SWITCH-3PDT-PTH-STOMP-SparkFun-Switches S1
+L SparkFun-Switches:SWITCH-3PDT-PTH-STOMP S1
 U 3 1 5ED6174A
 P 5100 2900
 AR Path="/5ED6174A" Ref="S1"  Part="3" 
@@ -126,22 +130,26 @@ F 4 "SWCH-13197" H 5050 3097 60  0000 C CNN "Campo4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L spinnaker-rescue:AudioJack2_Ground_Switch J102
+L Connector:AudioJack2_SwitchT J102
 U 1 1 5EE23820
 P 3200 4050
+AR Path="/5EE23820" Ref="J102"  Part="1" 
+AR Path="/5EFE207B/5EE23820" Ref="J102"  Part="1" 
 F 0 "J102" H 3200 4400 50  0000 C CNN
-F 1 "AudioJack2_Ground_Switch" H 3200 4300 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 3200 4300 50  0000 C CNN
 F 2 "" H 3200 4050 50  0001 C CNN
 F 3 "" H 3200 4050 50  0001 C CNN
 	1    3200 4050
 	1    0    0    -1  
 $EndComp
 $Comp
-L spinnaker-rescue:AudioJack2_Ground_Switch J104
+L Connector:AudioJack2_SwitchT J104
 U 1 1 5EE23826
 P 6850 4050
+AR Path="/5EE23826" Ref="J104"  Part="1" 
+AR Path="/5EFE207B/5EE23826" Ref="J104"  Part="1" 
 F 0 "J104" H 6850 4400 50  0000 C CNN
-F 1 "AudioJack2_Ground_Switch" H 6850 4300 50  0000 C CNN
+F 1 "Connector:AudioJack2_SwitchT" H 6850 4300 50  0000 C CNN
 F 2 "" H 6850 4050 50  0001 C CNN
 F 3 "" H 6850 4050 50  0001 C CNN
 	1    6850 4050
@@ -170,7 +178,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3950 5500 3950
 $Comp
-L spinnaker-rescue:SWITCH-3PDT-PTH-STOMP-SparkFun-Switches S2
+L SparkFun-Switches:SWITCH-3PDT-PTH-STOMP S2
 U 1 1 5EE2384A
 P 4400 4050
 AR Path="/5EE2384A" Ref="S2"  Part="1" 
@@ -184,7 +192,7 @@ F 4 "SWCH-13197" H 4350 4247 60  0000 C CNN "Campo4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L spinnaker-rescue:SWITCH-3PDT-PTH-STOMP-SparkFun-Switches S2
+L SparkFun-Switches:SWITCH-3PDT-PTH-STOMP S2
 U 2 1 5EE23851
 P 5600 4050
 AR Path="/5EE23851" Ref="S2"  Part="2" 
@@ -249,7 +257,7 @@ F 3 "" H 5650 2750 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L spinnaker-rescue:SWITCH-3PDT-PTH-STOMP-SparkFun-Switches S2
+L SparkFun-Switches:SWITCH-3PDT-PTH-STOMP S2
 U 3 1 5EEBC6B2
 P 5100 4700
 AR Path="/5EEBC6B2" Ref="S2"  Part="3" 

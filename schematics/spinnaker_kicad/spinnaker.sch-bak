@@ -890,7 +890,7 @@ F 3 "~" H 7200 3400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L spinnaker-rescue:TL071 U5
+L Amplifier_Operational:TL071 U5
 U 1 1 5B720966
 P 9800 6750
 F 0 "U5" H 9800 7000 50  0000 L CNN
@@ -962,7 +962,7 @@ P 11700 8850
 AR Path="/5EDB4C53/5F1D9274" Ref="J?"  Part="1" 
 AR Path="/5F1D9274" Ref="J3"  Part="1" 
 F 0 "J3" H 11700 8650 50  0000 C CNN
-F 1 "Conn_01x02" H 11700 8550 50  0000 C CNN
+F 1 "L_OUT" H 11700 8550 50  0000 C CNN
 F 2 "Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm" H 11700 8850 50  0001 C CNN
 F 3 "~" H 11700 8850 50  0001 C CNN
 	1    11700 8850
@@ -975,7 +975,7 @@ P 11700 7100
 AR Path="/5EDB4C53/5F1D926E" Ref="J?"  Part="1" 
 AR Path="/5F1D926E" Ref="J4"  Part="1" 
 F 0 "J4" H 11700 6900 50  0000 C CNN
-F 1 "Conn_01x02" H 11700 6800 50  0000 C CNN
+F 1 "R_OUT" H 11700 6800 50  0000 C CNN
 F 2 "Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm" H 11700 7100 50  0001 C CNN
 F 3 "~" H 11700 7100 50  0001 C CNN
 	1    11700 7100
@@ -1290,13 +1290,13 @@ F 3 "" H 3600 2750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L spinnaker-rescue:PT2578 U6
+L pt:PT2258 U6
 U 1 1 5B6CA0C2
 P 4550 3600
 F 0 "U6" H 4200 4400 50  0000 C CNN
 F 1 "PT2258" H 4300 3100 50  0000 C CNN
-F 2 "Package_SO:SO-20_12.8x7.5mm_P1.27mm" H 4550 3750 50  0000 C CIN
-F 3 "" H 4950 3650 50  0000 C CNN
+F 2 "Package_SO:SO-20_12.8x7.5mm_P1.27mm" H 4550 3750 50  0001 C CIN
+F 3 "" H 4950 3650 50  0001 C CNN
 	1    4550 3600
 	1    0    0    -1  
 $EndComp
@@ -1345,7 +1345,7 @@ F 3 "" H 11150 8750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L spinnaker-rescue:TL071 U4
+L Amplifier_Operational:TL071 U4
 U 1 1 5B6C0924
 P 9800 8500
 F 0 "U4" H 9800 8750 50  0000 L CNN
@@ -1565,17 +1565,6 @@ F 3 "" H 8250 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L spinnaker-rescue:SpinSemi_FV-1 U1
-U 1 1 5A782A8D
-P 11150 3400
-F 0 "U1" H 10800 4200 50  0000 C CNN
-F 1 "SpinSemi_FV-1" H 11050 2600 50  0000 C CNN
-F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 11150 2950 50  0000 C CIN
-F 3 "" H 11550 3450 50  0000 C CNN
-	1    11150 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:LED D1
 U 1 1 5EF8B433
 P 10250 3150
@@ -1593,7 +1582,7 @@ L Connector_Generic:Conn_01x08 J6
 U 1 1 5F037405
 P 13300 4900
 F 0 "J6" V 13400 5250 50  0000 R CNN
-F 1 "Conn_01x08" V 13400 4900 50  0000 R CNN
+F 1 "CONTROL" V 13400 4900 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical" H 13300 4900 50  0001 C CNN
 F 3 "~" H 13300 4900 50  0001 C CNN
 	1    13300 4900
@@ -1664,4 +1653,19 @@ Wire Wire Line
 Connection ~ 13400 4150
 Wire Wire Line
 	13400 4150 13800 4150
+$Comp
+L spinsemi:SpinSemi_FV-1 U1
+U 1 1 5F009E3D
+P 11150 3400
+F 0 "U1" H 10800 4200 50  0000 C CNN
+F 1 "SpinSemi_FV-1" H 11050 2600 50  0000 C CNN
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 11150 3350 50  0001 C CIN
+F 3 "http://www.spinsemi.com/Products/datasheets/spn1001/FV-1.pdf" H 11200 3250 50  0001 C CNN
+	1    11150 3400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9800 6450
+NoConn ~ 9900 6450
+NoConn ~ 9900 8200
+NoConn ~ 9800 8200
 $EndSCHEMATC
