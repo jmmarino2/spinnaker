@@ -231,7 +231,7 @@ AR Path="/5EE4C698" Ref="R?"  Part="1"
 AR Path="/5EFE207B/5EE4C698" Ref="R37"  Part="1" 
 F 0 "R37" V 4280 2900 50  0000 C CNN
 F 1 "1K" V 4200 2900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4130 2900 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4130 2900 50  0001 C CNN
 F 3 "" H 4200 2900 50  0000 C CNN
 	1    4200 2900
 	0    -1   -1   0   
@@ -289,7 +289,7 @@ AR Path="/5EEBC6BE" Ref="R?"  Part="1"
 AR Path="/5EFE207B/5EEBC6BE" Ref="R38"  Part="1" 
 F 0 "R38" V 4280 4700 50  0000 C CNN
 F 1 "1K" V 4200 4700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4130 4700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4130 4700 50  0001 C CNN
 F 3 "" H 4200 4700 50  0000 C CNN
 	1    4200 4700
 	0    -1   -1   0   
